@@ -1,5 +1,19 @@
+@keyframes colorful{
+  from{background-color: #ff0000;}
+  to{background-color: #150950;}
+}
+
+@keyframes lap{
+    0%   {left:0; top:0;}
+    25%  {left:200px; top:0;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0; top:200px;}
+    100% {left:0; top:0;}
+}
 body{
   background-color: #150950;
+  animation-name: colorful;
+  animation-duration: 7s;
 }
 
 h1{
@@ -18,30 +32,7 @@ img{
   display: block;
   margin: auto;
   height: 60%;
-  width: 75%;
-}
-
-.manpiano{
-  text-align: center;
-  display: inline-block;
-  height: 45%;
-  width: 60%;
-}
-
-.barsign{
-  text-align: center;
-}
-
-.bar-sign{
-  display: inline-block;
-}
-
-.billiards{
-  text-align: right;
-}
-
-.ball8{
-  display: inline-block;
+  width: 50%;
 }
 
 h3{
@@ -91,4 +82,19 @@ p{
 
 .work{
   color: #5aec53;
+}
+
+.righted{
+  text-align: right;
+}
+
+.centerly{
+  text-align: center;
+  color: #96ed59;
+}
+
+.asura{
+  color: #31313c;
+  animation-name: lap;
+  animation-duration: 8s;
 }
