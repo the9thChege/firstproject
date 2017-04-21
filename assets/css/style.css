@@ -1,0 +1,94 @@
+body{
+  background-color: #150950;
+}
+
+h1{
+  font-family: 3270;
+  color: #930d41;
+  text-align: center;
+}
+
+h2{
+  font-family: "Monospace Corsiva", monospace;
+  color: #7cf2e1;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+  height: 60%;
+  width: 75%;
+}
+
+.manpiano{
+  text-align: center;
+  display: inline-block;
+  height: 45%;
+  width: 60%;
+}
+
+.barsign{
+  text-align: center;
+}
+
+.bar-sign{
+  display: inline-block;
+}
+
+.billiards{
+  text-align: right;
+}
+
+.ball8{
+  display: inline-block;
+}
+
+h3{
+  background-color: #610e0e;
+  font-family: "Monospace Corsiva", Georgia, serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+h4{
+  font-family: "Monospace Corsiva", Georgia, serif;
+  color: #7cf2e1;
+  text-align: left;
+}
+
+.banner{
+  background-color: #c4db04;
+  background-size: auto;
+  transition: all 1s ease-in-out;
+  max-height: 35%;
+  color: #e25d60;
+}
+
+.banner:hover{
+  background-color: #f18a50;
+  transition: all 1s ease-in-out;
+  max-height: 35%;
+  color: #e25d60;
+}
+
+.links{
+  background-color: #000000;
+  background-size: auto;
+  transition: all 1s ease-in-out;
+  max-height: 25%;
+}
+
+.links:hover{
+  background-color: #ffffff;
+  transition: all 1s ease-in-out;
+  max-height: 25%;
+}
+
+p{
+  color: #17b8b3;
+}
+
+.work{
+  color: #5aec53;
+}
