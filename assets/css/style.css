@@ -1,6 +1,9 @@
 @keyframes colorful{
-  from{background-color: #ff0000;}
-  to{background-color: #150950;}
+  0%{background-color: #150950;}
+  25%{background-color: #519eba;}
+  50%{background-color: #2eb367;}
+  75%{background-color: #463f42;}
+  100%{background-color: #150950;}
 }
 
 @keyframes lap{
@@ -13,7 +16,11 @@
 body{
   background-color: #150950;
   animation-name: colorful;
-  animation-duration: 7s;
+  animation-duration: 7.5s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
 }
 
 h1{
@@ -95,6 +102,4 @@ p{
 
 .asura{
   color: #31313c;
-  animation-name: lap;
-  animation-duration: 8s;
 }
