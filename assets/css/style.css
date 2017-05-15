@@ -6,16 +6,9 @@
   100%{background-color: #150950;}
 }
 
-@keyframes lap{
-    0%   {left:0; top:0;}
-    25%  {left:200px; top:0;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0; top:200px;}
-    100% {left:0; top:0;}
-}
 body{
   background-color: #150950;
-  animation-name: colorful;
+  /*animation-name: colorful; To stop animation*/
   animation-duration: 7.5s;
   animation-iteration-count: 3;
   animation-direction: alternate;
@@ -36,10 +29,10 @@ h2{
 }
 
 img{
-  display: block;
-  margin: auto;
-  height: 60%;
-  width: 50%;
+  display: inline-block;
+  height: 30%;
+  width: 25%;
+  border-radius: 55%;
 }
 
 h3{
@@ -101,5 +94,15 @@ p{
 }
 
 .asura{
+  margin-right: 20px;
+  text-align: right;
   color: #31313c;
+}
+
+.intro{
+  text-align: right;
+}
+
+.outro{
+  text-align: center;
 }
